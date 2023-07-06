@@ -15,8 +15,7 @@ int bY = Convert.ToInt32(Console.ReadLine());
 int a = aY - bY;
 int b = aX - bX;
 
-/*
+
 double distance = Match.Sqrt(a * a + b * b);
 Console.WriteLine(distance);
 
-*/
