@@ -5,3 +5,29 @@
 
 */
 
+Console.WriteLine("Input number ");
+int number = Convert.ToInt32(Console.ReadLine());
+int count = 0;
+int mult = 0;
+
+if (number > 0)
+{
+    while (count < number + 1)
+    {
+        mult = count * count;
+        count = count + 1;
+        Console.Write($"{mult}, ");
+    }
+}
+else 
+{
+   count = count * (-1);
+   while (count > number - 1)
+    {
+        mult = count * count;
+        count = count - 1;
+        Console.Write($"{mult}, ");
+    } 
+}
+Console.WriteLine(mult);
+Console.WriteLine(count);
