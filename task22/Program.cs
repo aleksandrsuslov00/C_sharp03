@@ -29,5 +29,3 @@ else
         Console.Write($"{mult}, ");
     } 
 }
-Console.WriteLine(mult);
-Console.WriteLine(count);
