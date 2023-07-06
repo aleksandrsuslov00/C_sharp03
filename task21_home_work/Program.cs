@@ -26,6 +26,6 @@ double GetDecision(double xA, double xB, double yA, double yB, double zA, double
    return Math.Sqrt(Math.Pow((xB-xA), 2) + Math.Pow((yB-yA), 2) + Math.Pow((zB-zA), 2));
 }
 
-double segmentLength =  Math.Round (GetDecision(xA, xB, yA, yB, zA, zB), 2 );
+double LengthOfLine =  Math.Round (GetDecision(xA, xB, yA, yB, zA, zB), 2 );
 
-Console.WriteLine($"Длина отрезка  {segmentLength}");
+Console.WriteLine($"{LengthOfLine}");
